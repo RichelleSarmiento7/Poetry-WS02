@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cookie&family=Croissant+One&family=Indie+Flower&family=Lobster+Two&family=Merienda:wght@900&display=swap');
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    color: black;
+    background-color: #f8f8f8;
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+h1{
+    font-size: 90px;
+    font-family: 'Merienda', cursive;
+    font-style: italic;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: rgb(255, 250, 250);
+    font-family:'Indie Flower', cursive;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+ul li img{
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+}
+ul{
+    display: inline;
+}
+li {
+    
+    bottom: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 10px ;
+    list-style: none;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.6em;
+    color: rgb(255, 255, 255);
+    
+}
+#span{
+    margin-left: 87px;
+}
+
+table {
+    border-spacing: 0px;
+    color: black;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 400px;
+}
+
+th, td {
+    padding: 5px 35px 5px 10px;
+    border-spacing: 0px;
+    font-size: 100%;
+    margin: 0px;
+}
+th{
+    font-family:'Times New Roman', Times, serif, cursive;
+}        
+th, td {
+    text-align: left;
+    background-color: #d0d2d39d;
+    border-top: 2px solid #f1f8fe;
+    border-bottom: 2px solid #b3aeae;
+    border-right: 2px solid #d0d2d3;
+    color: black;
+    font-weight: 300px;
+}
+
+tr.head th {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+    text-shadow: -1px -2px 3px black;
+    letter-spacing: 0.17em;
+}
+
+td {
+    
+}
+
+tr.even td, tr.even th {
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+}
+
+fieldset {
+    display: block;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    width: 430px;
+    border: 1px solid #000;
+    background-color: #d0d2d39d;
+    line-height: 1.6em;
+    height: 200px;
+}
+fieldset p{
+    font-family: serif;
+    color: white;
+    display: block;
+    margin: 15px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+legend {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(252, 248, 248);
+    display: flex;
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #0d0909;
+    padding: 2px;
+    outline: none;
+    border: 2px solid black;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0e8;
+    border: 2px solid black;
+}
+
+input[type="submit"] {
+    border: 1px solid black;
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid black;
+    background-color: #d0d2d3;
+    color: black;
+    cursor: pointer;
+}
+
+.title {
+    float: left;
+    width: 140px;
+    clear: left;
+    font-size: 20px;
+    color: black;
+}
+label{
+    color: black;
+    display: inline;
+    font-size: 15px;
+    margin: 2px;
+}
+p .title{
+    font-size: 20px;
+}
+.submit {
+    display: flex;
+    margin: auto;
+    position: relative;
+    right: 195px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
